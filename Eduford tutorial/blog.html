@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Our Courses</title>
+    <script
+      src="https://kit.fontawesome.com/4285b870c3.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="sub-header">
+      <nav>
+        <a href="index.html">
+          <img src="images/logo.png" alt="" />
+        </a>
+
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="course.html">COURSE</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <h1>Our Certificate & Online Programs for 2023</h1>
+    </section>
+
+    <!------ blog page content ------->
+
+    <section class="blog-content">
+      <div class="row">
+        <div class="blog-left">
+          <img src="images/certificate.jpg" alt="">
+          <h2>Our Certificate & Online Programs for 2023</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic odio voluptatem earum esse ipsum repellat, doloribus expedita explicabo voluptatibus temporibus quidem quae officiis magni natus, quos perferendis unde aut beatae eius laboriosam necessitatibus, quo provident commodi quibusdam? Nam blanditiis commodi quidem dolorum incidunt qui quasi, velit ipsum quisquam non veniam.</p>
+          <br>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit autem id mollitia omnis, quam labore eos deleniti maiores debitis, libero rerum nostrum eum, exercitationem fugit officiis fugiat consequuntur! Praesentium dolorem culpa nemo officia quam dolore, repudiandae, fuga ipsum necessitatibus hic inventore illo eius aliquid ea. Provident suscipit quasi laborum repellendus, ducimus dicta aspernatur consequatur ipsum adipisci laudantium eos reprehenderit sunt inventore cupiditate nostrum, debitis quaerat in hic alias. Suscipit sunt velit id non reiciendis veritatis unde, dignissimos similique. Voluptates aspernatur excepturi cum. Aliquid, numquam commodi aut voluptatem tempora placeat omnis accusamus odit error eos. Rem laborum inventore facere dignissimos quos.</p>
+          <br>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic odio voluptatem earum esse ipsum repellat, doloribus expedita explicabo voluptatibus temporibus quidem quae officiis magni natus, quos perferendis unde aut beatae eius laboriosam necessitatibus, quo provident commodi quibusdam? Nam blanditiis commodi quidem dolorum incidunt qui quasi, velit ipsum quisquam non veniam.</p>
+          <br>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic odio voluptatem earum esse ipsum repellat, doloribus expedita explicabo voluptatibus temporibus quidem quae officiis magni natus, quos perferendis unde aut beatae eius laboriosam necessitatibus, quo provident commodi quibusdam?</p>
+
+          <div class="comment-box">
+            <h3>Leave a comment</h3>
+            <form class="comment-form">
+              <input type="text" placeholder="Enter Name">
+              <input type="email" placeholder="Enter Email">
+              <textarea rows="5" placeholder="Your Comment"></textarea>
+              <button class="hero-btn red-btn" type="submit">POST COMMENT</button>
+            </form>
+          </div>
+
+
+        </div>
+        <div class="blog-right">
+          <h3>Post Categories</h3>
+
+          <div>
+            <span>Business Analytics</span>
+            <span>21</span>
+          </div>
+
+          <div>
+            <span>Data Science</span>
+            <span>24</span>
+          </div>
+
+          <div>
+            <span>Machine Learning</span>
+            <span>15</span>
+          </div>
+
+          <div>
+            <span>Computer Science</span>
+            <span>34</span>
+          </div>
+
+          <div>
+            <span>AutoCad</span>
+            <span>42</span>
+          </div>
+          
+          <div>
+            <span>Journalism</span>
+            <span>22</span>
+          </div>
+
+          <div>
+            <span>Commerce</span>
+            <span>30</span>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    
+
+    <!------ footer ------->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quisquam
+        quibusdam, error expedita iste similique assumenda <br />
+        odio nulla minima ipsum adipisci dolorem eum suscipit? Eius dicta quas
+        laboriosam quod iure!
+      </p>
+      <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+      </div>
+      <p>Made with <i class="fa fa-heart-o"></i> by Easy Tutorial</p>
+    </section>
+
+    <!------JavaScript for Toggle Menu------->
+    <script>
+      var navLinks = document.getElementById("navLinks");
+
+      function showMenu() {
+        navLinks.style.right = "0";
+      }
+
+      function hideMenu() {
+        navLinks.style.right = "-200px";
+      }
+    </script>
+  </body>
+</html>
